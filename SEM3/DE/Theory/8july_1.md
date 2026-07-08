@@ -138,3 +138,8 @@ Digital circuit: Processes binary signals using logic gates (e.g., computers, ca
 <img width="834" height="458" alt="image" src="https://github.com/user-attachments/assets/84541d06-9aa9-43c8-99c0-ac1f6441ddc2" />
 
 
+<img width="549" height="802" alt="image" src="https://github.com/user-attachments/assets/3c716229-78d0-4d0a-9910-41db4e3821ed" />
+
+
+<img width="775" height="893" alt="image" src="https://github.com/user-attachments/assets/95b47890-4380-4128-9ba7-835986e2ca9d" />
+
