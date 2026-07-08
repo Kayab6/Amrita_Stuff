@@ -26,11 +26,6 @@ Analog Signal
 
 The graph looks smooth.
 
-Voltage
- ^
- |      /¯\      /¯\
- |     /   \    /   \
- |____/     \__/     \____> Time
 
 Notice:
 
@@ -77,14 +72,6 @@ These are called binary digits (bits).
 Digital Signal
 
 Instead of a smooth wave, the signal jumps.
-
-Voltage
- ^
- | ┌───┐     ┌───┐
- | │   │     │   │
- | │   └─────┘   └────>
- |________________________ Time
-
 
  It is either
 
