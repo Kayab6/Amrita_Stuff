@@ -21,4 +21,7 @@ scope of variable is liited to tat particular function
 wat r the control sturctures in c 
 swquential
 loops 
-![Uploading image.png…]()
+<img width="412" height="437" alt="image" src="https://github.com/user-attachments/assets/ecbebfb6-b44e-4c0e-916a-26caf074d734" />
+
+
+UMM WE CAN PRACTICE SOME BASIC C CODES 
