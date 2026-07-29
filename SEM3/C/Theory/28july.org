@@ -1,12 +1,92 @@
 * lecture notes 
 
-- first code 
-
+- code to print n natural numbers
 #+BEGIN_SRC c
-#include <stdio.h>
-
-int main() {
-    printf("Hello, GitHub Org Mode!\n");
-    return 0;
+# include <stdio.h>
+void main(){
+    int i,n;
+    printf("enter the number till which u wanna display natural numbers");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        printf("%d\n", i);
+    }
 }
 #+END_SRC
+
+
+- code to print numbers bw n and m 
+#+BEGIN_SRC c
+// print numbers bw n and m 
+# include <stdio.h>
+
+void main(){
+    int i,n,m;
+    printf("enter ur n ");
+    scanf("%d",&n);
+    printf("enter ur m ");
+    scanf("%d",&m);
+    for(int i=n;i<=m;i++){
+        printf("%d\n",i);
+    }
+}
+#+END_SRC
+
+
+
+
+
+
+- code to print even numbers and count them 
+#+BEGIN_SRC c
+// even numbers
+# include <stdio.h>
+
+void main(){
+    int i,n,count=0;
+
+    printf("enter n values");
+    scanf("%d",&n);
+
+    for(int i=1;i<=n;i++){
+        if(i%2==0){
+            printf("%d\n",i);
+            count=count+1;
+        }
+    }
+
+    // how would we count 
+    printf("the count of even no is%d",count);
+}
+
+#+END_SRC
+
+
+
+- code 
+#+BEGIN_SRC c
+# include <stdio.h>
+
+void main(){
+    int i,n;
+    scanf("%d",&n);
+    for(i = 1; i <= n; i++);   // empty loop
+    printf("%d\n", i);
+
+}
+
+
+# include <stdio.h>
+
+void main(){
+    int i,n;
+    scanf("%d",&n);
+    for(i = 1; i <= n; i++);{
+        printf("%d\n", i);
+    } 
+    
+}
+
+// output = 11
+
+#+END_SRC
+
