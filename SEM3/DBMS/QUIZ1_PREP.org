@@ -1,0 +1,22 @@
+#+TITLE: DBMS QUIZ 1 PREP
+
+
+* Module 1: Introduction & Architecture (Unit 1)
+The foundation. Don't just know definitions; know the "Why" and "How".
+** DBMS vs. File Processing Systems
+- *File System Drawbacks*:
+    - *Data Redundancy & Inconsistency*: Same data duplicated in multiple files, leading to conflicts if not all copies are updated.
+    - *Difficulty in Accessing Data*: Requires writing a new program for every new query.
+    - *Data Isolation*: Data is scattered in various files with different formats.
+    - *Integrity Problems*: Constraints (e.g., account balance > 0) are hard to enforce.
+    - *Atomicity Problems*: A transaction (e.g., fund transfer) might fail halfway, leaving the system in an inconsistent state.
+    - *Concurrent Access Anomalies*: Uncontrolled concurrent access can lead to inconsistencies.
+    - *Security Problems*: Hard to enforce access restrictions on a per-user basis.
+
+** Data Base Languages
+** DDL (Data Definition Language)
+- Defines the database schema.
+- CREATE: To create databases, tables, views, indexes. `CREATE TABLE Students (…)`
+-ALTER: To modify the structure of a database object. `ALTER TABLE Students ADD COLUMN gpa DECIMAL(3,2);`
+DROP: To delete database objects. `DROP TABLE Students;`
+TRUNCATE: To remove all records from a table, but not the table itself. Faster than DELETE
