@@ -13,10 +13,47 @@ The foundation. Don't just know definitions; know the "Why" and "How".
     - *Concurrent Access Anomalies*: Uncontrolled concurrent access can lead to inconsistencies.
     - *Security Problems*: Hard to enforce access restrictions on a per-user basis.
 
-** Data Base Languages
-** DDL (Data Definition Language)
-- Defines the database schema.
-- CREATE: To create databases, tables, views, indexes. `CREATE TABLE Students (…)`
--ALTER: To modify the structure of a database object. `ALTER TABLE Students ADD COLUMN gpa DECIMAL(3,2);`
-DROP: To delete database objects. `DROP TABLE Students;`
-TRUNCATE: To remove all records from a table, but not the table itself. Faster than DELETE
+* Data Base Languages
+** 1)DDL (Data Definition Language)
+- Defines the database schema. 
+- used for creating tables ,schemas,indexes,constraints etc in database.
+- CREATE: To create databases, tables, views, indexes. `CREATE TABLE Students (column_name datatype)`
+- ALTER: To modify the structure of a database object. `ALTER TABLE Students ADD COLUMN gpa DECIMAL(3,2);`
+- DROP: To delete database objects. `DROP TABLE Students;`
+- TRUNCATE: To remove all records from a table, but not the table itself. Faster than DELETE
+-  DDL compiler generates a set of table templates stored in a data dictionary
+
+
+** 2)DML (Data Manipulation Language)
+- Used for accessing and manipulating data.
+- *SELECT*: To retrieve data from a database. `SELECT name, major FROM Students WHERE id = 101;`
+- *INSERT*: To insert new records into a table. `INSERT INTO Students VALUES (...);`
+- *UPDATE*: To modify existing records. `UPDATE Students SET major = 'CS' WHERE id = 101;`
+- *DELETE*: To delete records. `DELETE FROM Students WHERE id = 101;`
+
+
+** DCL/TCL (Data Control / Transaction Control Language)
+- *GRANT*: To give user access privileges to the database. `GRANT SELECT ON Students TO user1;`
+- *REVOKE*: To withdraw user access privileges. `REVOKE SELECT ON Students FROM user1;`
+- *COMMIT*: To save all the work done in a transaction.
+- *ROLLBACK*: To undo all the work done since the last COMMIT.
+
+
+
+** 3)DCL (Data Control Language)
+- used for granting n revoking user access on DB
+- *GRANT*: To give user access privileges to the database. `GRANT SELECT ON Students TO user1;`
+- *REVOKE*: To withdraw user access privileges. `REVOKE SELECT ON Students FROM user1;`
+
+
+
+** 4)TCL (Transaction Control Language)
+- The changes in the database that we made using DML commands are either performed or rolled back using TCL
+- *REVOKE*: To withdraw user access privileges. `REVOKE SELECT ON Students FROM user1;`
+- *COMMIT*: To save all the work done in a transaction.
+- *ROLLBACK*: To undo all the work done since the last COMMIT.
+
+
+
+* ER DIAGRAM
+
