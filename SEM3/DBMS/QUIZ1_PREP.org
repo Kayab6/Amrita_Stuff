@@ -54,6 +54,35 @@ The foundation. Don't just know definitions; know the "Why" and "How".
 - *ROLLBACK*: To undo all the work done since the last COMMIT.
 
 
+* PRIMARY KEY 
+- UNIQUE N NOT NULL 
+-A primary key is one candidate key chosen by the database designer to uniquely identify the rows.
+- IN STUDENT SUTUENT NAME PARENT NAME ETC CAN BE SAME BUT AADHARCARD Reg no Pancard number ID CARD AND STUFF WWILL BE UNIQUe, phone number - Candidate key - only unique but can be null 
+- null - it is possible tat data is not there people have give same number  sibling case or aadhar number not there  
 
+A candidate key is any attribute (or combination of attributes) that can uniquely identify every row in a table.
+
+
+* foreign key
+- It is an attribute or set of attributes tat references to primary key of same table or another table (relation)
+
+- ALL THE UNIQUE STUFF IS CALLED CANDIDATE KEY CAUSE IT IS UNIQUE
+
+```mermaid
+erDiagram
+    DEPARTMENT ||--o{ STUDENT : "has"
+
+    DEPARTMENT {
+        int Dept_ID PK
+        string Dept_Name
+    }
+
+    STUDENT {
+        int Student_ID PK
+        string Name
+        int Age
+        int Dept_ID FK
+    }
+```
 * ER DIAGRAM
 
