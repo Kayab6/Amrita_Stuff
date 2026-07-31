@@ -68,7 +68,8 @@ A candidate key is any attribute (or combination of attributes) that can uniquel
 
 - ALL THE UNIQUE STUFF IS CALLED CANDIDATE KEY CAUSE IT IS UNIQUE
 
-```mermaid
+```
+
 erDiagram
     DEPARTMENT ||--o{ STUDENT : "has"
 
