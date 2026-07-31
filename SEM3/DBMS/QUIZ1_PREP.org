@@ -67,23 +67,12 @@ A candidate key is any attribute (or combination of attributes) that can uniquel
 - It is an attribute or set of attributes tat references to primary key of same table or another table (relation)
 
 - ALL THE UNIQUE STUFF IS CALLED CANDIDATE KEY CAUSE IT IS UNIQUE
-
-```
-
-erDiagram
-    DEPARTMENT ||--o{ STUDENT : "has"
-
-    DEPARTMENT {
-        int Dept_ID PK
-        string Dept_Name
-    }
-
-    STUDENT {
-        int Student_ID PK
-        string Name
-        int Age
-        int Dept_ID FK
-    }
-```
++-------------------------+          +----------------------------+
+|        Student          |          |          Course            |
++-------------------------+          +----------------------------+
+| 🔑 Roll_No (PK)         |◄─────────| 🔗 Roll_No (FK)            |
+| Name                    |          | 🔑 Course_ID (PK)          |
+| Address                 |          | Course_Name               |
++-------------------------+          +----------------------------+
 * ER DIAGRAM
 
