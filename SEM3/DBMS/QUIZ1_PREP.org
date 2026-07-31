@@ -74,5 +74,49 @@ A candidate key is any attribute (or combination of attributes) that can uniquel
 | Name                    |          | 🔑 Course_ID (PK)          |
 | Address                 |          | Course_Name               |
 +-------------------------+          +----------------------------+
-* ER DIAGRAM
+
+
+
+
+
+
+* ENTITY RELATIONSHIP MODEL  
+
+** entity
+
+** attirbute
+
+** relationship 
+
+*** exmple - student ----STUDY --- COURSE 
+
+** TYPES OF ATTRIBUTES
+*** SINGLE VS MULTIVALUED
+- Ex) student will have one reg no 
+- multivalued - mobile number a student can have more than one , address a student have mor than 1 adress
+
+*** simple vs composite
+- which cannot be broken further - age 
+- composite - ex student name - first name , last name ,middle name 
+
+*** stored vs derived attribute - dotted line 
+- stored - dob
+- derived - age - derived from dob 
+
+*** Key vs non key 
+- attibute used to uniquely identitfy ex reg no wont be same
+- key is represented by underline 
+- non key - guareantee not ther
+
+*** required vs optional  attribute
+- required -  student name 
+-optional - depends on database 
+
+
+** DEGREE OF RELATIONSHIP 
+*** ONE TO ONE 
+
+*** ONE TO MANY
+*** MANY TO ONE
+*** MANY TO MANY (M-N) 
 
