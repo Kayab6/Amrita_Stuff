@@ -1,5 +1,5 @@
 # DBMS Quiz 1 Prep
-
+A DBMS avoids storing the same information multiple times, so it uses less storage space
 > **Module 1: Introduction & Architecture (Unit 1)**
 
 ---
