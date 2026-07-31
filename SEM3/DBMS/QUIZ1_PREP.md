@@ -605,42 +605,4 @@ Usually implemented using a **junction (bridge) table**.
 
 Example:
 
-```
-Student
---------
-Roll_No (PK)
-
-Course
--------
-Course_ID (PK)
-
-Enrollment
------------
-Roll_No (FK)
-Course_ID (FK)
-```
-
----
-
-# Quick Revision Table
-
-| Concept | Key Point |
-|----------|-----------|
-| DBMS | Manages databases efficiently |
-| File System | Suffers from redundancy, inconsistency, poor security |
-| DDL | Defines database structure |
-| DML | Manipulates data |
-| DCL | Controls user permissions |
-| TCL | Controls transactions |
-| Candidate Key | Any unique attribute |
-| Primary Key | Selected candidate key |
-| Foreign Key | References another table's primary key |
-| Entity | Real-world object |
-| Attribute | Property of an entity |
-| Relationship | Connection between entities |
-| Derived Attribute | Calculated from stored data |
-| Composite Attribute | Can be divided into smaller attributes |
-| One-to-One | One ↔ One |
-| One-to-Many | One ↔ Many |
-| Many-to-One | Many ↔ One |
-| Many-to-Many | Many ↔ Many |
+ buffer manager, weak entity discriminator and stuff 
