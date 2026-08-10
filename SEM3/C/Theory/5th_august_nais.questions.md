@@ -106,9 +106,29 @@ void main(){
 
 '''
 
-## 2) 
+## 5) no od digite
 
 '''
+#include <stdio.h>
+
+void main(){
+
+
+    int i,n,count=0;
+    int digit,temp;
+
+
+    printf("enter num");
+    scanf("%d",&n);
+    temp=n;
+
+    while(n>0){
+        count=count+1;
+        n=n/10;
+    }
+    printf("%d",count);
+
+}
 
 
 '''
