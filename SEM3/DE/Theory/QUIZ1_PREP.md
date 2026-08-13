@@ -10,8 +10,13 @@ For canonical SOP, EVERY product term must contain EVERY variable exactly once, 
 
 COMPLIMENT
 
-PI
-EPI 
+PI- it is represented by grouping large no of ones tat can be circled inn a kmap 
+EpI- if a min term in a cell of kmap is covereed by only 1 pi then it is called a epi 
+
+minterm - a prod term in which all input variables are prsent in true or complimernty form
+
+max tern false frm 
+
 
 
 
