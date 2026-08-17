@@ -1,0 +1,20 @@
+# include <stdio.h>
+void main(){
+    int i,n,fac=1;
+    char choice;
+
+    do{
+        printf("factorial program");
+
+        printf("enter ur num");
+        scanf("%d",&n);
+        for(i=1;i<=n;i++){
+            fac=fac*i;
+        }
+        printf("Factorial = %d\n", fac);
+
+        printf("enter ur choice");
+        scanf("%c",&choice);
+    }
+    while(choice!='y' && choice!='Y');
+}
